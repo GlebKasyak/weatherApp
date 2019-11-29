@@ -1,0 +1,42 @@
+
+.alert {
+    font-size: 18px;
+}
+
+.alert span {
+    margin-left: 10px;
+}
+
+.alert{
+    background: rgba(233, 30, 99, 0.3);
+    border-radius: 35px;
+    margin-top: 33px;
+}
+
+.alert.forget_password_error {
+    background: rgba(244, 67, 54, 0.8);
+    color: #212121;
+    border-color: #212121;
+    box-shadow: 0 0 10px 1px #212121;
+}
+
+.alert.strong {
+    text-transform: uppercase;
+}
+
+.alert-dismissible .close {
+    background: transparent;
+    padding: 0;
+    top: 10px!important;
+    right: -24px;
+    transform: scale(1.4);
+}
+
+.alert-dismissible .close:hover {
+    color: white;
+}
+
+
+
+
+
